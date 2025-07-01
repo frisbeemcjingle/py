@@ -1,0 +1,28 @@
+bv@homelab:~/repos$ cd py
+bv@homelab:~/repos/py$ git init
+Initialized empty Git repository in /home/bv/repos/py/.git/
+
+bv@homelab:~/repos/py$ git config --global user.name "frisbeemcjingle"
+bv@homelab:~/repos/py$ git config --global user.email "enter_email_here"
+bv@homelab:~/repos/py$ git remote add origin https://github.com/frisbeemcjingle/py.git
+bv@homelab:~/repos/py$ git remote -v
+origin  https://github.com/frisbeemcjingle/py.git (fetch)
+origin  https://github.com/frisbeemcjingle/py.git (push)
+
+bv@homelab:~/repos/py$ git remote set-url origin https://frisbeemcjingle:add_token_here@github.com/frisbeemcjingle/py.git
+bv@homelab:~/repos/py$ git fetch origin
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+From https://github.com/frisbeemcjingle/py
+ * [new branch]      main       -> origin/main
+bv@homelab:~/repos/py$ git log
+fatal: your current branch 'master' does not have any commits yet
+bv@homelab:~/repos/py$ git switch main
+branch 'main' set up to track 'origin/main'.
+Switched to a new branch 'main'
+bv@homelab:~/repos/py$ git branch
+* main
+bv@homelab:~/repos/py$ git pull origin
+Already up to date.
+bv@homelab:~/repos/py$ git log
