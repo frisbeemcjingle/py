@@ -1,0 +1,12 @@
+name: machine-learning
+channels:
+  - conda-forge
+dependencies:
+  - ipython # Interactive Terminal
+  - pandas  # Data Processing 
+  - python
+  - scikit-learn  # Machine Learning Algorithms
+  - seaborn       # Visualization
+    # variables:
+    #VAR1: valueA
+    #VAR2: valueB

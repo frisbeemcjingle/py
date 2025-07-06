@@ -1,0 +1,13 @@
+name: data
+channels:
+  - pytorch
+  - r
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - numpy
+  - pandas
+  - matplotlib
+  - pyfinance
+prefix: /home/bill/miniconda3/envs/data

@@ -1,0 +1,7 @@
+name: stats
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - python>=3.9

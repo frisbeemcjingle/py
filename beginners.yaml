@@ -1,0 +1,13 @@
+name: /home/bill/python_for_beginners
+channels:
+  - pytorch
+  - r
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scikit-learn
+  - ipython
+  - pandas
+  - seaborn
+prefix: /home/bill/python_for_beginners
